@@ -18,8 +18,9 @@ Vì sao chọn:
 
 Vì sao không chọn các bài khác:
 -Education Assistant (Thủ tục nhập học & Điểm danh): Bài toán này thiên về xử lý quy trình hành chính và giải đáp thắc mắc (Q&A). Việc xây dựng một chatbot hay hệ thống quản lý thủ tục đòi hỏi phải can thiệp, kết nối sâu vào cơ sở dữ liệu nhân sự, phòng đào tạo và các quy định mật của trường; dữ liệu văn bản hành chính thường lộn xộn, khó chuẩn hóa cấu trúc để train model chuẩn trong thời gian ngắn.
-
 -Education Support System (Học viên burnout/Sụt giảm phong độ): Mặc dù có impact rất nhân văn, nhưng "burnout" hay "sụt giảm phong độ" là trạng thái tâm lý mang tính chủ quan và cực kỳ khó định lượng. Dữ liệu hành vi trên LMS (tần suất đăng nhập, nộp muộn) chỉ là phần ngọn, không đủ để mô hình hóa chính xác tâm lý con người. Việc thiết lập các chỉ số đánh giá chất lượng (Quality Metric) cho giải pháp giảm burnout là quá mơ hồ và bất khả thi trong khuôn khổ một bài lab.
+
+Canteen supply dùng mô hình AI dự đoán
 
 # Quick validation
 +----------------------+----------+------------------------------------+------------------------------------+------------------------------------+
@@ -29,7 +30,7 @@ Vì sao không chọn các bài khác:
 | (Bạn bè thân thiết)  |          | hoặc phải ăn mì gói vì xuống muộn  | Tất cả đều coi đây là nỗi đau      | Tập trung giải quyết việc thiếu hụt|
 |                      |          | bị hết món sạch bách.              | lặp đi lặp lại hàng ngày.          | suất ăn vào cuối giờ cao điểm.     |
 +----------------------+----------+------------------------------------+------------------------------------+------------------------------------+
-| Mini poll            |    3     |  3/3 người thường xuyên đi ăn muộn  | 0/3 người nói đi ăn sớm (lúc       | Thu hẹp phạm vi:                   |
+| Mini poll            |    7     |  6/7 người thường xuyên đi ăn muộn  | 0/3 người nói đi ăn sớm (lúc       | Thu hẹp phạm vi:                   |
 | (Những bạn ở gần)    |          | (sau 13h) gặp tình trạng hết món,  | 12h45) thì đồ ăn luôn đầy đủ,      | Bài toán không phải tối ưu cho cả  |
 |                      |          | phải đợi nấu lại mất thời gian.    | không bị ảnh hưởng gì.             | buổi trưa, mà là dự đoán chính xác |
 |                      |          |                                    |                                    | lượng đồ ăn cho nhóm đi muộn.      |

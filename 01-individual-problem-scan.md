@@ -1,13 +1,16 @@
 # paint point mà em nhận thấy được trong khóa học:
 | # | Lăng kính | Problem quan sát được | AI đang đau? | Dấu hiệu thật |
 |---|-----------|-----------------------|--------------|---------------|
-| 1 | Tốn thời gian | Nhà ăn chuẩn bị thiếu đồ, học viên đến muộn thường xuyên bị hết món, phải đợi nấu lại hoặc nhịn ăn. | Học viên, Đầu bếp canteen | Xảy ra hàng ngày vào khung giờ 11h45 - 12h30. |
+| 1 | AI có thể tốt hơn | Nhà ăn chuẩn bị thiếu đồ, học viên đến muộn thường xuyên bị hết món, phải đợi nấu lại hoặc nhịn ăn. | Học viên, Đầu bếp canteen | Xảy ra hàng ngày vào khung giờ 11h45 - 12h30. |
 | 2 | Lặp lại | Quá nhiều thủ tục nhập học, giấy tờ, quy định điểm danh phức tạp khiến người mới bối rối, hỏi đi hỏi lại. | Học viên mới, Phòng đào tạo | Mất 2-3 ngày đầu khóa để giải quyết; fanpage/group lớp bị spam cùng một câu hỏi. |
 | 3 | AI có thể tốt hơn | Lượng kiến thức khổng lồ khiến học viên không kịp tiêu hóa, gặp khó khăn khi tự cài đặt môi trường và quản lý lịch học/nghỉ ngơi. | Học viên | Thức khuya đến 2-3h sáng; nhiều học viên nợ bài tập ngay từ tuần thứ 2. |
 | 4 | Pain từ người khác | Học viên ngoại tỉnh khó tìm trọ quanh trường, dễ bị "chém giá" hoặc thuê phải phòng không đúng mô tả. | Học viên mới | Mất 3-5 ngày đi tìm trực tiếp; chi phí bị đội lên 20-30% so với giá thị trường. |
 | 5 | Lặp lại | Khó khăn và mất thời gian trong việc tìm kiếm, kết nối đồng đội để lập nhóm làm Assignment/Project có cùng trình độ. | Học viên, Lớp trưởng | Mất cả tuần đầu khóa để ổn định danh sách; cuối kỳ xuất hiện nhiều nhóm "gánh tạ". |
 | 6 | AI có thể tốt hơn | Học viên bị sụt giảm phong độ, âm thầm "burnout" và muốn bỏ học giữa chừng do áp lực học tập quá nặng nề. | Học viên, Giảng viên | Tần suất đăng nhập LMS giảm 50%; tỷ lệ nộp muộn tăng cao sau tuần thứ 4. |
 | 7 | AI có thể tốt hơn | Mạng nội bộ của trường bị nghẽn, load chậm hoặc rớt mạng liên tục vào các khung giờ cao điểm làm bài Lab. | Toàn bộ học viên, Bộ phận IT | Mất 15-20 phút chỉ để kéo (pull) một thư viện code; nghẽn băng thông diện rộng. |
+| 8 | AI có thể tốt hơn | Phân bổ thư viện: Học viên dồn vào một phòng gây quá tải, ồn ào trong khi các khu vực khác bị bỏ trống, lãng phí tài nguyên. | Học viên, Quản lý tòa nhà | Computer Vision đo mật độ thực tế; bảng điện tử báo "Full" hoặc "Available" ở cửa. |
+| 9 | AI có thể tốt hơn | Vệ sinh Campus: Lao công dọn dẹp theo lịch cứng, dẫn đến nơi cần thì bẩn (WC giờ nghỉ), nơi sạch vẫn dọn, gây lãng phí sức lực. | Lao công, Học viên | Cảm biến IoT đo lượt người ra vào & mức độ đầy rác; AI điều hướng lao công đến "điểm nóng" cần dọn ngay lập tức. |
+| 10| Tốn thời gian     | Lãng phí Năng lượng: Đèn, điều hòa chạy thâu đêm ở phòng trống; học viên ngồi hành lang vì không biết phòng nào đang mở/có chỗ. | Quản lý tòa nhà, Học viên | Computer Vision đếm người để tự tắt điện khi trống và báo vị trí phòng học còn chỗ trống lên App theo thời gian thực. |
 
 # top3:
 | 1 | Tốn thời gian | Nhà ăn chuẩn bị thiếu đồ, học viên đến muộn thường xuyên bị hết món, phải đợi nấu lại hoặc nhịn ăn. | Học viên, Đầu bếp canteen | Xảy ra hàng ngày vào khung giờ 13h00 - 13h30. |
@@ -18,7 +21,7 @@
 
 
 ## Problem Card #1 – Canteen Supply Shortage
-Bài toán một câu:
+Bài toán:
 Học viên đến muộn thường xuyên bị hết món do nhà ăn chuẩn bị thiếu đồ, dẫn đến việc phải đợi nấu lại hoặc nhịn ăn, gây lãng phí thời gian và ảnh hưởng sức khỏe.
 
 Actor:
@@ -183,3 +186,17 @@ FUTURE STATE — 6 phút                                                        
 | 1. Giảng viên      | --> | 2. AI tự động điều | --> | 3. Local Cache/    |
 |    giao bài Lab (5')|    |    phối mạng (0.5')|     |    Kéo code mượt(0.5)|
 +--------------------+     +--------------------+     +--------------------+
+
+# problem cards 4 và 7 tóm tắt:
+
++----------------------+----------------------+------------------------------------+------------------------+-----------------------+------------------------------------+
+| Card                 | Actor                | Bottleneck                         | Metric                 | Phán đoán ban đầu     | Vì sao chưa chọn làm #1            |
++----------------------+----------------------+------------------------------------+------------------------+-----------------------+------------------------------------+
+| Accommodation        | Học viên mới         | Tin rác/nhiễu trên Facebook,       | Tìm phòng từ 3-5 ngày  | Data / Integration    | Rào cản lớn về bản quyền crawl     |
+| Searching            | (ngoại tỉnh)         | mất quá nhiều công sức đi xác     | -> giảm xuống dưới     |                       | dữ liệu, data rác/tin giả quá nhiều|
+|                      |                      | thực trực tiếp các phòng trọ ảo.   | 2 ngày.                |                       | và cấu trúc data access phức tạp.  |
++----------------------+----------------------+------------------------------------+------------------------+-----------------------+------------------------------------+
+| Lab Session Network  | Học viên thực hành,  | Hàng trăm máy cùng kéo thư viện    | Chờ kéo code 15-20 phút| System /              | Cần can thiệp rất sâu vào hệ thống |
+| Congestion           | Bộ phận IT trường    | code từ server quốc tế cùng lúc    | -> giảm xuống dưới     | Infrastructure        | Core Network của trường, khó để    |
+|                      |                      | gây thắt nút cổ chai băng thông.  | 1 phút.                |                       | kiểm thử Quality Metric trong lab. |
++----------------------+----------------------+------------------------------------+------------------------+-----------------------+------------------------------------+
