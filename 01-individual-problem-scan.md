@@ -10,8 +10,7 @@
 | 7 | AI có thể tốt hơn | Mạng nội bộ của trường bị nghẽn, load chậm hoặc rớt mạng liên tục vào các khung giờ cao điểm làm bài Lab. | Toàn bộ học viên, Bộ phận IT | Mất 15-20 phút chỉ để kéo (pull) một thư viện code; nghẽn băng thông diện rộng. |
 
 # top3:
-
-| 1 | Tốn thời gian | Nhà ăn chuẩn bị thiếu đồ, học viên đến muộn thường xuyên bị hết món, phải đợi nấu lại hoặc nhịn ăn. | Học viên, Đầu bếp canteen | Xảy ra hàng ngày vào khung giờ 11h45 - 12h30. |
+| 1 | Tốn thời gian | Nhà ăn chuẩn bị thiếu đồ, học viên đến muộn thường xuyên bị hết món, phải đợi nấu lại hoặc nhịn ăn. | Học viên, Đầu bếp canteen | Xảy ra hàng ngày vào khung giờ 13h00 - 13h30. |
 
 | 4 | Pain từ người khác | Học viên ngoại tỉnh khó tìm trọ quanh trường, dễ bị "chém giá" hoặc thuê phải phòng không đúng mô tả. | Học viên mới | Mất 3-5 ngày đi tìm trực tiếp; chi phí bị đội lên 20-30% so với giá thị trường. |
 
