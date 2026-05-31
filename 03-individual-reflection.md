@@ -5,7 +5,7 @@
 | Hoạt động | Tôi đã làm gì? | Kết quả |
 |---|---|---|
 | Scan cá nhân | Đề xuất ý tưởng Canteen Supply và 2 vấn đề khác | Nhóm chọn Canteen Supply làm đề tài chính vì workflow rõ |
-| Problem Cards | Chịu trách nhiệm chính xây dựng nội dung File 02 | Hoàn thiện hệ thống 10 Problem Cards chuyên nghiệp |
+| Problem Cards | Chịu trách nhiệm chính xây dựng nội dung File 02 | Hoàn thiện hệ thống Problem Cards chuyên nghiệp |
 | Pitch & Present | Chuẩn bị nội dung và trực tiếp thuyết trình giải pháp | Truyền tải được logic dự báo nhu cầu đến hội đồng |
 | Challenge | Phản biện với các ban jtorng lớp | Trả lời câu hỏi của các bạn tỏng lớp |
 | Workflow | Dùng AI để vẽ Current/Future workflow cho Canteen | Có sơ đồ Before/After trực quan bằng Mermaid và ASCII |
